@@ -5,6 +5,21 @@
 #include "my_can.h"
 #include "my_creds.h"
 
+
+static void get_credits_to_watt_in_string(uint64_t credits, char *buff) {
+    char string_c[20] = {};
+    if (credits < 1000) {
+      sprintf(buff, "Creds: %u W",credits);
+    } else if (credits < 1000000) {
+      dtostrf(((float)credits/1000),5,2,string_c);
+      sprintf(buff, "Creds: %s KW",string_c);     
+    }
+    else {
+      dtostrf(((float)credits/1000000),5,2,string_c);
+      sprintf(buff, "Creds: %s MW",string_c);      
+    }
+}
+
 static uint32_t my_pow(uint8_t number,uint8_t index) {
     uint32_t final = 1;
     while (index) {
@@ -14,11 +29,8 @@ static uint32_t my_pow(uint8_t number,uint8_t index) {
     return final;
 }
 
-static void get_credits_to_string(char* buff) {
-    char string_c[20] = {};
-    uint64_t creds_avail = creds_get_available_credits();
-    dtostrf(((float)creds_avail/1000),5,2,string_c);
-    sprintf(buff, "Credits: %sKw",string_c);
+static inline void get_credits_to_string(char* buff) {
+    get_credits_to_watt_in_string(creds_get_available_credits(),buff);
 }
 
 static void get_soc_to_string(char *buff) {
@@ -98,9 +110,7 @@ void gui_update_for_add_creds_mode_success(uint32_t credits_added) {
     strcpy(lcd_string[0],"Success");
     strcpy(lcd_string[1],"Credits added");
 
-    char string_c[32] = {};
-    dtostrf(((float)credits_added/1000),5,2,string_c);
-    sprintf(lcd_string[2],"%s KW",string_c);
+    get_credits_to_watt_in_string(credits_added,lcd_string[2]);
 
     get_credits_to_string(lcd_string[3]);
     gui_print_lcd(lcd_string);

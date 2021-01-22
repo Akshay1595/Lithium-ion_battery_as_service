@@ -39,7 +39,7 @@ uint64_t mem_get_credits_in_mem(void) {
         uint8_t single_byte = 0;
         for(uint8_t i = 0; i < 8; i++)  {
             single_byte = EEPROM.read((ADDRESS_FOR_CREDITS+i));
-            credits_saved |= (single_byte << (i*8));
+            credits_saved |= ( (uint64_t) single_byte << (i*8));
             sprintf(test_string,"Data read at Addr = %u is = %u credits_saved = %u",\
                 (ADDRESS_FOR_CREDITS+i),single_byte,credits_saved);
             debug_log(test_string);
