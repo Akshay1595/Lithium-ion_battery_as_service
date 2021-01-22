@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:mega",
+    "sketch": "Li_BaAS.ino",
+    "port": "COM3",
+    "output": ".\\bin",
+    "configuration": "cpu=atmega2560"
+}
