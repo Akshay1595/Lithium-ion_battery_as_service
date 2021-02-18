@@ -14,8 +14,6 @@ typedef enum {
 #define KEY_ENTERED_COUNT           (25)
 
 
-extern void creds_update_credits(void);
-
 extern uint64_t creds_get_available_credits(void);
 
 extern add_credits_status creds_get_credits_from_user(void);
@@ -24,5 +22,8 @@ extern void gui_update_for_add_creds_mode_success(uint32_t credits_added);
 
 extern void gui_update_for_add_creds_mode_failure(void);
 
+extern void creds_update_creds_based_on_soc(void);
+
+extern bool creds_is_creds_expired(void);
 
 #endif /* MY_CREDS_H */

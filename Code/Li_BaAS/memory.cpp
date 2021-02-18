@@ -2,7 +2,7 @@
 #include "EEPROM.h"
 #include "my_memory.h"
 
-#define DEBUG
+//#define DEBUG
 
 static void debug_log(char *buff) {
 #ifdef DEBUG

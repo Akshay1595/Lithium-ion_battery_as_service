@@ -4,14 +4,28 @@
 #include "my_gui.h"
 #include "my_keypad.h"
 #include "my_memory.h"
+#include "my_can.h"
+#include "my_load.h"
+#include "config.h"
 
-#define DEBUG
-
-void debug_log(char *buff) {
-#ifdef DEBUG
-    Serial.println(buff);
-#endif
+static uint64_t creds_diff_soc_to_creds(uint8_t current_soc, uint8_t prev_soc) {
+    uint64_t current_credits = creds_get_available_credits();
+    uint64_t batt_cap_consumed = 0;
+    int8_t diff_soc = prev_soc - current_soc;
+    if ( diff_soc >  0 ) {
+        batt_cap_consumed =  (uint64_t) ( (float) BATTERY_CAP_IN_WHR * ( (float) diff_soc / 100));
+        current_credits -= (batt_cap_consumed * WHR_PER_RS);
+    }
+    if ((int64_t)current_credits < 0) {
+        // mark it for credits expired
+        current_credits = 0;
+    }
+    return current_credits;
 }
+
+static uint8_t prev_soc = 0;
+
+static bool is_creds_expired = false;
 
 static uint64_t credits_remaining = 0;
 
@@ -36,6 +50,9 @@ static add_credits_status string_to_credits(char *buff, uint64_t* credits_added)
     }
     *credits_added = sum;
 
+    if(*credits_added)
+        is_creds_expired = false;
+
     sprintf(string_rcvd,"Credits_added = %lu",*credits_added);
     debug_log(string_rcvd);
 
@@ -52,7 +69,6 @@ void creds_update_credits(uint64_t credits) {
     debug_log(string_rcvd);
 
     mem_update_credits_in_mem(credits_remaining);
-
 }
 
 uint64_t creds_get_available_credits(void) {
@@ -224,4 +240,25 @@ add_credits_status creds_get_credits_from_user(void) {
                 break;
         }
     }
+}
+
+bool creds_is_creds_expired(void) {
+    return is_creds_expired;
+}
+
+void creds_update_creds_based_on_soc(void) {
+    uint8_t current_soc = can_get_soc();
+    uint64_t current_credits = creds_get_available_credits();
+    if ((current_soc < prev_soc) && !(creds_is_creds_expired()) && credits_remaining) {
+        current_credits -= (uint64_t)(prev_soc - current_soc);
+        credits_remaining = current_credits;
+        mem_update_credits_in_mem(credits_remaining);
+    }
+    if (credits_remaining == 0) {
+        is_creds_expired = true;
+        mem_update_credits_in_mem(credits_remaining);
+        load_disable_discharge();
+    }else
+        load_enable_discharge();
+    prev_soc = current_soc;
 }
