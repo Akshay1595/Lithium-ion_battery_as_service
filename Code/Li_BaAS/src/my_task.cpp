@@ -58,5 +58,5 @@ void task_init(void) {
 
   xTaskCreate(can_update_data, "TASK_TO_UPDATE_DATA", 1024, NULL, (PRIORITY_LOW), NULL); 
 
-  debug_log("Task Init done!\n");
+  debug_log("Task Init done!");
 }
