@@ -1,11 +1,8 @@
 #ifndef MY_CAN_H
 #define MY_CAN_H
+#include "charger.h"
 
-typedef struct time_t {
-    uint8_t hrs;
-    uint8_t mins;
-}time_to_full_charge;
-
+// Function declarations
 extern uint8_t can_get_soc(void);
 extern uint32_t can_get_discharge_rate(void);
 extern uint32_t can_get_charge_rate(void);

@@ -6,14 +6,7 @@
 #include "../inc/my_creds.h"
 #include <Arduino_FreeRTOS.h>
 #include "../inc/my_led.h"
-
-#define DEBUG
-
-static void debug_log(char *buff) {
-#ifdef DEBUG
-    Serial.println(buff);
-#endif
-}
+#include "../inc/config.h"
 
 static void gui_watt_conversions(uint32_t watts, char *buff) {
     char string_c[20] = {};
@@ -30,9 +23,11 @@ static void gui_watt_conversions(uint32_t watts, char *buff) {
 }
 
 static void get_credits_to_watt_in_string(uint64_t credits, char *buff) {
-
+    char new_string[128] = {};
 #ifndef CREDS_IN_RS
     gui_watt_conversions(credits,buff);
+    sprintf(new_string, "Creds %s",buff);
+    strcpy(buff, new_string);
 #else
     sprintf(buff,"Credits: %lu Rs",credits);
 #endif
@@ -56,7 +51,7 @@ static void get_soc_to_string(char *buff) {
     sprintf(buff, "Battery: %d %%",soc);
 }
 
-static char *dtostrf (float val, signed char width, unsigned char prec, char *sout) {
+char *dtostrf (float val, signed char width, unsigned char prec, char *sout) {
   uint16_t iPart = (uint16_t)val;
   uint32_t dPart = (uint32_t)((float)my_pow(10,2) * (val - (float)iPart));
   sprintf(sout, "%d.%d", iPart, dPart);  
@@ -84,8 +79,9 @@ void gui_update_for_default_mode(void) {
     get_soc_to_string(lcd_string[2]);
 
     uint32_t dis_rate = can_get_discharge_rate();
-    char string_c[32] = {};gui_watt_conversions(dis_rate,string_c);
-    sprintf(lcd_string[1], "Dischrge: %s",string_c);
+    char string_c[128] = {};
+    gui_watt_conversions(dis_rate, string_c);
+    sprintf(lcd_string[1], "Dischrge: %s", string_c);
 
     gui_print_lcd(lcd_string);
 }
