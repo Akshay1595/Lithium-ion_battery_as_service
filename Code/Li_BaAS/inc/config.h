@@ -4,6 +4,8 @@
 /* Debug Lines */
 #define DEBUG
 
+#undef CREDS_IN_RS
+
 static inline void debug_log(char *buff) {
 #ifdef DEBUG
     Serial.println(buff);

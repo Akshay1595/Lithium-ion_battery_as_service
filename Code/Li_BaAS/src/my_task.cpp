@@ -25,7 +25,6 @@ void task_to_check_if_add_key_pressed(void *pvParameters) {
         //delay(50);
         vTaskResume(handle_for_task_to_accept_creds_from_user);
     }
-    can_read_data();
     vTaskDelay(100 / portTICK_PERIOD_MS);
   }  
 }

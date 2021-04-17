@@ -6,51 +6,70 @@
 #include <Arduino_FreeRTOS.h>
 #include "../inc/config.h"
 #include "../inc/my_led.h"
+#include "../inc/bms.h"
+#include "../inc/charger.h"
 
-#define DISCHARGE_RATE_MAX      (5000)
-#define CHARGE_RATE_MAX         (2000)
+#define DISCHARGE_RATE_MAX      (BATTERY_CAP_IN_WHR)
+#define CHARGE_RATE_MAX         (BATTERY_CAP_IN_WHR/10)
 
 #define CS_PIN                  (53)
 
 MCP2515 mcp2515(CS_PIN);
 
+
 static uint8_t SOC = 100;
 static uint32_t discharge_rate = DISCHARGE_RATE_MAX;
 static uint32_t charge_rate = CHARGE_RATE_MAX;
 static time_to_full_charge time_remaining = {2, 30};
+
 static bool is_charger_connected = false;
 
 bool can_charger_connected(void) {
     return is_charger_connected;
 }
 
+static void can_set_charger_connected(void) {
+    is_charger_connected = true;
+}
+
+static void can_reset_charger_connected(void) {
+    is_charger_connected = false;
+}
+
 void can_setup(void) {
     mcp2515.reset();
-    mcp2515.setBitrate(CAN_250KBPS);//CAN_500KBPS
+    mcp2515.setBitrate(CAN_500KBPS);//CAN_500KBPS
     mcp2515.setNormalMode();
     debug_log("Can Setup complete!");
 }
 
 void can_read_data(void) {
+    can_msg_id* id_to_interpret;
     struct can_frame canMsg;
     //Update CAN data
-    char msg_string[32] = {};
-    char add_string[16] = {};
-    while ((mcp2515.readMessage(&canMsg) == MCP2515::ERROR_OK))  {
-
-        canMsg.can_id = canMsg.can_id & ( (1U << 30) - 1);
-
-        Serial.print(canMsg.can_id, HEX); // print ID
-        Serial.print(" "); 
-        Serial.print(canMsg.can_dlc, HEX); // print DLC
-        Serial.print(" ");
+    char msg_id_string[32] = {};
+    
+    while(1)  {
         
-        for (int i = 0; i < canMsg.can_dlc; i++)  {  // print the data
-            Serial.print(canMsg.data[i],HEX);
+        while(mcp2515.readMessage(&canMsg) != MCP2515::ERROR_OK);
+        id_to_interpret = (can_msg_id*)&canMsg.can_id;
+        if (id_to_interpret->msg_id == BMS_INFO_MSG_1_MSG_ID) {
+            Serial.print("0x");
+            Serial.print(id_to_interpret->msg_id, HEX);
+            //sprintf(msg_id_string, "0x%X", (uint32_t)id_to_interpret->msg_id);
+            //Serial.print(msg_id_string); // print ID
+            Serial.print(" "); 
+            Serial.print(canMsg.can_dlc, HEX); // print DLC
             Serial.print(" ");
+            
+            for (int i = 0; i < canMsg.can_dlc; i++)  {  // print the data
+                Serial.print(canMsg.data[i],HEX);
+                Serial.print(" ");
+            }
+            Serial.println(" ");
+            bms_decrypt_can_msg(&canMsg);
+            return;
         }
-        Serial.println(" ");
-        
     }
 }
 
@@ -60,25 +79,25 @@ void can_update_data(void *pvParameters) {
         debug_log("Inside the task can_task_to_update_soc");
 
         // Update SOC
-        if (!is_charger_connected){
+        if (!can_charger_connected()){
             if ( (!creds_is_creds_expired())) {
                 if (SOC != 0)
                     SOC = SOC - 1;
                 else
-                    is_charger_connected = true;                    
+                    can_set_charger_connected();
             } 
         } else {
             if (SOC < 100)
                 SOC = SOC + 1;
             else
-                is_charger_connected = false;
+                can_reset_charger_connected();
         }
 
         // Update Discharge Rate
         {
-            if (!is_charger_connected && !(creds_is_creds_expired())) {
+            if (!can_charger_connected() && !(creds_is_creds_expired())) {
                 if( discharge_rate == 0)
-                    discharge_rate = DISCHARGE_RATE_MAX;
+                    discharge_rate = (DISCHARGE_RATE_MAX);
                 else
                     discharge_rate -= 10;
             }
@@ -88,7 +107,7 @@ void can_update_data(void *pvParameters) {
 
         //Update charger connection
         {
-            if(is_charger_connected) {
+            if(can_charger_connected()) {
                 if (charge_rate == 0) 
                     charge_rate = CHARGE_RATE_MAX;
                 else
@@ -96,6 +115,7 @@ void can_update_data(void *pvParameters) {
             }
         }
         led_toggle_can_data_led();
+        can_read_data();
         //debug_log("Returning from this can data update function!\n");
         vTaskDelay(10000 / portTICK_PERIOD_MS);
     }

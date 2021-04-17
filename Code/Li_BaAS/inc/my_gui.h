@@ -1,7 +1,7 @@
 #ifndef MY_GUI_H
 #define MY_GUI_H
 
-#define CREDS_IN_RS
+extern char* dtostrf (float val, signed char width, unsigned char prec, char *sout);
 
 extern void gui_update_for_default_mode(void);
 

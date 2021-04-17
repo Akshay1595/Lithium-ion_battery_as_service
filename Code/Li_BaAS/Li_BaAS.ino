@@ -3,12 +3,13 @@
 #include "inc/my_can.h"
 #include "inc/my_led.h"
 #include "inc/my_load.h"
+#include "inc/config.h"
 
 void setup() {
   Serial.begin(9600);
   led_setup();
   load_setup();
-  lcd_setup();  
+  lcd_setup();
   task_init();
   can_setup();
 }
