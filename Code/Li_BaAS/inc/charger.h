@@ -3,6 +3,8 @@
 
 #include "bms.h"
 
+typedef float charge_rate;
+
 // charger global data
 typedef struct time_t {
     uint8_t hrs;
@@ -24,5 +26,5 @@ extern charger_data charger_update_data(bms_data bms_values);
 extern time_to_full_charge charger_get_time_to_full_charge(void);
 extern batt_i charger_get_charging_current(void);
 extern batt_v charger_get_charging_voltage(void);
-
+extern charge_rate charger_get_charge_rate(void);
 #endif // CHARGER_H

@@ -58,7 +58,6 @@ char *dtostrf (float val, signed char width, unsigned char prec, char *sout) {
   return sout;
 }
 
-
 static void gui_print_lcd(char lcd_string[4][20]) {
     lcd_clear();
     lcd_setCursor(0, 0);
@@ -72,18 +71,29 @@ static void gui_print_lcd(char lcd_string[4][20]) {
 
 }
 
+//---------------------------------------------Default Mode--------------------------------------//
+static void gui_discharge_rate_str_conversion(char *buf, discharge_rate dischargeRate) {
+    dtostrf(dischargeRate, 5, 2, buf);
+    strcat(buf, " W");
+}
+
 void gui_update_for_default_mode(void) {
 
     char lcd_string[4][20] = {};
     get_credits_to_string(lcd_string[0]);
     get_soc_to_string(lcd_string[2]);
 
-    uint32_t dis_rate = can_get_discharge_rate();
-    char string_c[128] = {};
-    gui_watt_conversions(dis_rate, string_c);
+    discharge_rate dis_rate = can_get_discharge_rate();
+    char string_c[32] = {}; gui_discharge_rate_str_conversion(string_c, dis_rate);
     sprintf(lcd_string[1], "Dischrge: %s", string_c);
 
     gui_print_lcd(lcd_string);
+}
+
+//---------------------------------------------Charging Mode------------------------------------//
+static void gui_charge_rate_str_conversion(char *buf, charge_rate chargeRate) {
+    dtostrf(chargeRate, 5, 2, buf);
+    strcat(buf, " W");
 }
 
 void gui_update_for_charging_mode(void) {
@@ -91,8 +101,8 @@ void gui_update_for_charging_mode(void) {
     get_soc_to_string(lcd_string[3]);
     
     time_to_full_charge time_remaining = can_get_time_to_charge();
-    uint32_t charge_rate = can_get_charge_rate();
-    char string_c[32] = {};gui_watt_conversions(charge_rate,string_c);
+    charge_rate chargeRate = can_get_charge_rate();
+    char string_c[32] = {}; gui_charge_rate_str_conversion(string_c, chargeRate);
 
     sprintf(lcd_string[0], "%dHr %dMin to charge",time_remaining.hrs,time_remaining.mins);
     sprintf(lcd_string[1], "Chrging @ %s",string_c);
@@ -100,7 +110,15 @@ void gui_update_for_charging_mode(void) {
     get_credits_to_string(lcd_string[2]);
     
     gui_print_lcd(lcd_string);
+
+    debug_log("------LCD Print------");
+    debug_log(lcd_string[0]);
+    debug_log(lcd_string[1]);
+    debug_log(lcd_string[2]);
+
 }
+
+//-------------------------------------- Creds Expired Mode --------------------------------------//
 
 void gui_update_for_creds_expired_mode(void) {
 
@@ -112,6 +130,8 @@ void gui_update_for_creds_expired_mode(void) {
 
     gui_print_lcd(lcd_string);
 }
+
+//-------------------------------------- Add Creds Mode --------------------------------------//
 
 void gui_update_for_add_creds_mode(void) {
     char lcd_string[4][20] = {};
@@ -152,12 +172,16 @@ void gui_update_based_on_mode(void *vParameters) {
         creds_update_creds_based_on_soc();
 
         //Update data after that
-        if(can_charger_connected()) 
+        if(can_is_charging()) {
             gui_update_for_charging_mode();
-        else if(creds_is_creds_expired())
+            led_clear_charging_indicator();
+        } else if(creds_is_creds_expired()) {
             gui_update_for_creds_expired_mode();
-        else
-            gui_update_for_default_mode();    
+            led_set_charging_indicator();
+        } else {
+            gui_update_for_default_mode();
+            led_set_charging_indicator();
+        }   
 
         // Update display after every 1 second
         led_toggle_gui_task_led();

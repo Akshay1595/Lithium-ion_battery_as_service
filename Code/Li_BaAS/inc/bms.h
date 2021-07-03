@@ -1,8 +1,10 @@
 #ifndef BMS_H
 #define BMS_H
 
-// functions
-void bms_decrypt_can_msg(struct can_frame* canMsg);
+// types to use
+typedef bool status_of_charging;
+typedef float discharge_rate;
+typedef bool status_of_charger_connected;
 
 //---------------------------------------------------------------------------------//
 /* BMS Information Message 1*/
@@ -13,11 +15,6 @@ void bms_decrypt_can_msg(struct can_frame* canMsg);
 #define FAULT_LEVEL_1               (01)
 #define FAULT_LEVEL_2               (02)
 #define FAULT_LEVEL_3               (03)
-
-// types to use
-typedef bool status_of_charging;
-
-typedef bool status_of_charger_connected;
 
 #define CHARGING_ON                 (true)
 #define CHARGING_OFF                (false)
@@ -145,4 +142,9 @@ typedef struct bms_data_t {
     bool is_fault;
 }bms_data;
 
+// functions
+void bms_decrypt_can_msg(struct can_frame* canMsg);
+extern discharge_rate bms_get_discharge_rate(void);
+extern state_of_charge bms_get_soc(void);
+status_of_charging bms_is_charging(void);
 #endif //end of BMS_H

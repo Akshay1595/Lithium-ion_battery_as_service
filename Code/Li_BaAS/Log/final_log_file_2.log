@@ -1,0 +1,2109 @@
+lcd_setup done!
+Led Setup Complete!
+Load Setup done!
+Task Init done!
+Can Setup complete!
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_cha-ging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 -ltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 16 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.40 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.40 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.76 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 16 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.40 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.40 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.76 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap --- Inside task task_to_print_lcd_data
+------LCD Print------
+0H 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = ¥
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0--- Inside task task_to_print_lcd_data
+------LCD Print------
+0HMins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0-0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Inf-1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0-
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 16 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.40 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = ¥
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated--- Inside task task_to_print_lcd_data
+------LCD Print------
+0H I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated:-soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = --- Inside task task_to_print_lcd_data
+------LCD Print------
+0H
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Yes I am charging
+Data Info1 Updated: soc = 100 current = -1.-40 v--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Htg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 10- current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+ing = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = - is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+lcd_setup done!
+Led Setup Complete!
+Load Setup done!
+Task Init done!
+Can Setup complete!
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 i-_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 13 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.10 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Update-: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 16 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.40 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.40 --- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.76 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hfault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 3A 64 7A 13 17 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = -1.-40 vltg = 53.50 is_charging = 1 is_fault = 0
+
+Stats: BattCap = 480.0 CurCap = 480.0 TimeNeeded = 
+Charger_stats Updated: I= 1.39 V= 53.50 Hrs= 0 Mins= 0
+
+--- Inside task task_to_print_lcd_data
+------LCD Print------
+0Hr 0Min to charge
+Chrging @ 74.90 W
+Creds 1.0KW
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 v-tg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Dat- Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_char-ing = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 -pdated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = -
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53-20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vl-g = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data-Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 10- current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+--- Inside task task_to_print_lcd_data
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.-0 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 v-tg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.2- is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Da-a Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 10- current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current - 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data
+Inside the task can_task_to_update_soc
+0x18FF28F4 8 38 64 88 13 14 2 0 0  
+Inside BMS Decrypt CAN msg
+Data Info1 Updated: soc = 100 current = 0.0 vltg = 53.20 is_charging = 0 is_fault = 0
+
+--- Inside task task_to_print_lcd_data

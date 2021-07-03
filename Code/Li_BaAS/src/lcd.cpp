@@ -13,6 +13,18 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 void lcd_setup(void) {
   // set up the LCD's number of columns and rows:
   lcd.begin(20, 4);
+  lcd.setCursor(7, 0);
+  lcd_print_str("Welcome");
+  
+  lcd.setCursor(9, 1);
+  lcd_print_str("To");
+
+  lcd.setCursor(7, 2);
+  lcd_print_str("LiBaas");
+
+  lcd.setCursor(7, 3);
+  lcd_print_str("System");
+
   debug_log("lcd_setup done!");
 }
 

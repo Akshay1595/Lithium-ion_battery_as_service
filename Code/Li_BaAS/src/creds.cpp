@@ -87,6 +87,13 @@ void creds_update_credits(uint64_t credits) {
     mem_update_credits_in_mem(credits_remaining);
 }
 
+void creds_clear_credits(void) {
+    debug_log("Credits Cleared!");
+    credits_remaining = 0;
+    mem_update_credits_in_mem(credits_remaining);
+    creds_set_creds_expired_flag();
+}
+
 uint64_t creds_get_available_credits(void) {
 
     if (!(credits_remaining) && (mem_is_valid_credits() == CREDS_VALID))
@@ -178,7 +185,6 @@ add_credits_status creds_get_credits_from_user(void) {
             case '8':
             case '9':
             case '0':
-            case '*':
             case '#':
                 debug_log("Number key pressed");
                 sprintf(debug_string,"Number Key Pressed = %c",keypressed);
@@ -193,6 +199,11 @@ add_credits_status creds_get_credits_from_user(void) {
                     creds_string_add_char(buff, keypressed);
                 }
                 break;
+
+            case '*':
+                debug_log("Clearing credits since * pressed!");
+                creds_clear_credits();
+                return ADD_CREDS_BACK_TO_DEF;
 
             case ADD_CRED_KEY:
                 add_key_count++;

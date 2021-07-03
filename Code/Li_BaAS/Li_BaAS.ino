@@ -7,9 +7,9 @@
 
 void setup() {
   Serial.begin(9600);
+  lcd_setup();
   led_setup();
   load_setup();
-  lcd_setup();
   task_init();
   can_setup();
 }

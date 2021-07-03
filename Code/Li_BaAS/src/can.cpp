@@ -9,6 +9,8 @@
 #include "../inc/bms.h"
 #include "../inc/charger.h"
 
+//#define TEST_CODE
+
 #define DISCHARGE_RATE_MAX      (BATTERY_CAP_IN_WHR)
 #define CHARGE_RATE_MAX         (BATTERY_CAP_IN_WHR/10)
 
@@ -16,16 +18,15 @@
 
 MCP2515 mcp2515(CS_PIN);
 
-
 static uint8_t SOC = 100;
-static uint32_t discharge_rate = DISCHARGE_RATE_MAX;
-static uint32_t charge_rate = CHARGE_RATE_MAX;
+static discharge_rate dischargeRate = DISCHARGE_RATE_MAX;
+static charge_rate chargeRate = CHARGE_RATE_MAX;
 static time_to_full_charge time_remaining = {2, 30};
 
 static bool is_charger_connected = false;
 
-bool can_charger_connected(void) {
-    return is_charger_connected;
+bool can_is_charging(void) {
+    return bms_is_charging();
 }
 
 static void can_set_charger_connected(void) {
@@ -77,7 +78,8 @@ void can_update_data(void *pvParameters) {
     while (true){
 
         debug_log("Inside the task can_task_to_update_soc");
-
+        
+#ifdef TEST_CODE
         // Update SOC
         if (!can_charger_connected()){
             if ( (!creds_is_creds_expired())) {
@@ -96,43 +98,56 @@ void can_update_data(void *pvParameters) {
         // Update Discharge Rate
         {
             if (!can_charger_connected() && !(creds_is_creds_expired())) {
-                if( discharge_rate == 0)
-                    discharge_rate = (DISCHARGE_RATE_MAX);
+                if( dischargeRate == 0)
+                    dischargeRate = (DISCHARGE_RATE_MAX);
                 else
-                    discharge_rate -= 10;
+                    dischargeRate -= 10;
             }
             else
-                discharge_rate = 0;
+                dischargeRate = 0;
         }
 
         //Update charger connection
         {
             if(can_charger_connected()) {
-                if (charge_rate == 0) 
-                    charge_rate = CHARGE_RATE_MAX;
+                if (chargeRate <= 0) 
+                    chargeRate = CHARGE_RATE_MAX;
                 else
-                    charge_rate -= 100;
+                    chargeRate -= 100;
             }
         }
+#endif        
         led_toggle_can_data_led();
         can_read_data();
         //debug_log("Returning from this can data update function!\n");
-        vTaskDelay(10000 / portTICK_PERIOD_MS);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 }
 
 uint8_t can_get_soc(void) {
+    #ifndef TEST_CODE
+    SOC = bms_get_soc();
+    #endif
     return SOC;
 }
 
-uint32_t can_get_discharge_rate(void) {
-    return discharge_rate;
+discharge_rate can_get_discharge_rate(void) {
+    #ifndef TEST_CODE
+    dischargeRate = bms_get_discharge_rate();
+    #endif
+    return dischargeRate;
 }
 
-uint32_t can_get_charge_rate(void) {
-    return charge_rate;
+charge_rate can_get_charge_rate(void) {
+    #ifndef TEST_CODE
+    chargeRate = charger_get_charge_rate();
+    #endif
+    return chargeRate;
 }
 
 time_to_full_charge can_get_time_to_charge(void) {
+    #ifndef TEST_CODE
+    time_remaining = charger_get_time_to_full_charge();
+    #endif
     return time_remaining;
 }

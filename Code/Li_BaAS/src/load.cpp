@@ -3,7 +3,7 @@
 #include "../inc/my_led.h"
 #include "../inc/config.h"
 
-#define LOAD_PIN        (30)
+#define LOAD_PIN        (40)
 
 static bool load_connected = false;
 

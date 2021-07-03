@@ -13,13 +13,13 @@ unsigned char keymap[numRows][numCols]= { {'1', '2', '3', ADD_CRED_KEY},
 
 {'*', '0', '#', DONE_KEY} };
 
-//byte rowPins[numRows] = {48,46,44,42}; //Rows 0 to 3
+byte rowPins[numRows] = {23, 25, 27, 29}; //Rows 0 to 3
 
-//byte colPins[numCols]= {47,45,43,41}; //Columns 0 to 3
+byte colPins[numCols]= {31, 33, 35, 37}; //Columns 0 to 3
 
-byte rowPins[numRows] = { 28, 29, 26, 27}; //Rows 0 to 3
+//byte rowPins[numRows] = { 28, 29, 26, 27}; //Rows 0 to 3
 
-byte colPins[numCols]= { 24, 25, 22, 23}; //Columns 0 to 3
+//byte colPins[numCols]= { 24, 25, 22, 23}; //Columns 0 to 3
 
 //initializes an instance of the Keypad class
 

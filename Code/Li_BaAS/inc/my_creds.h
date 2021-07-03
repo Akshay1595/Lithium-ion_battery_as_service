@@ -24,6 +24,8 @@ extern void gui_update_for_add_creds_mode_failure(void);
 
 extern void creds_update_creds_based_on_soc(void);
 
+extern void creds_clear_credits(void);
+
 extern bool creds_is_creds_expired(void);
 
 #endif /* MY_CREDS_H */

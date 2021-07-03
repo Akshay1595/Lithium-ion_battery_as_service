@@ -45,6 +45,11 @@ batt_i bms_get_batt_current(void) {
     return g_bms_data.current;
 }
 
+discharge_rate bms_get_discharge_rate(void) {
+    discharge_rate curr_rate = ( bms_get_batt_vltg() * bms_get_batt_current() );
+    return curr_rate;
+}
+
 status_of_charging bms_is_charging(void) {
     return g_bms_data.is_charging;
 }
@@ -64,8 +69,9 @@ void bms_update_data_of_bms_info1(struct can_frame* info_msg_1) {
     if (bms_info_1_t->byte1.is_charger_connected) {
         g_bms_data.is_charging = bms_info_1_t->byte1.is_charging_on;
     }
-    
-    //get soc
+    g_bms_data.is_charging = bms_info_1_t->byte1.is_charging_on;
+
+    // get soc
     if (bms_info_1_t->soc <= 100)
         g_bms_data.soc = bms_info_1_t->soc;
 
@@ -91,8 +97,11 @@ void bms_update_data_of_bms_info1(struct can_frame* info_msg_1) {
 
     if (g_bms_data.is_charging) {
         charger_data charging_stats = charger_update_data(g_bms_data);
-        sprintf(string, "Charger_stats Updated: I= %.1f V= %.1f Hrs= %d Mins= %d\n",
-            charging_stats.input_current, charging_stats.input_vltg, 
+        char strForCurr[8],strForVltg[8];
+        dtostrf(charging_stats.input_current, 5, 2, strForCurr);
+        dtostrf(charging_stats.input_vltg, 5, 2, strForVltg);
+        sprintf(string, "Charger_stats Updated: I= %s V= %s Hrs= %d Mins= %d\n",
+            strForCurr, strForVltg, 
             charging_stats.full_chrge_time.hrs, charging_stats.full_chrge_time.mins);
         debug_log(string);
     }
