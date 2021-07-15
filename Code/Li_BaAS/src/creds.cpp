@@ -280,7 +280,7 @@ void creds_update_creds_based_on_soc(void) {
         credits_remaining = creds_diff_soc_to_creds(current_soc,prev_soc);
         mem_update_credits_in_mem(credits_remaining);
     }
-    if (credits_remaining == 0) {
+    if ((int64_t)credits_remaining <= 0) {
         load_disable_discharge();
         creds_set_creds_expired_flag();
     }else{

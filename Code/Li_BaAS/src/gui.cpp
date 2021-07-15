@@ -11,14 +11,14 @@
 static void gui_watt_conversions(uint32_t watts, char *buff) {
     char string_c[20] = {};
     if (watts < 1000) {
-      sprintf(buff, "%uW",watts);
+      sprintf(buff, "%uWH",watts);
     } else if (watts < 1000000) {
       dtostrf(((float)watts/1000),5,2,string_c);
-      sprintf(buff, "%sKW",string_c);     
+      sprintf(buff, "%sKWH",string_c);     
     }
     else {
       dtostrf(((float)watts/1000000),5,2,string_c);
-      sprintf(buff, "%sMW",string_c);      
+      sprintf(buff, "%sMWH",string_c);      
     }
 }
 
